@@ -1,0 +1,18 @@
+{
+    "name": "netmosfera/drawbridge",
+    "description": "Delegates all interactions performed on one or more \"trap\" objects to the same unified \"handler\" interface. Can be used to create proxies, facades, adapters, decorators, any other kind of wrapper, AOP, logging, access control.",
+    "keywords": ["wrap", "wrapper", "wrappers", "proxy", "proxies", "facade", "facades", "adapter", "adapters", "decorator", "decorators", "AOP", "logging", "access control"],
+    "homepage": "https://github.com/Netmosfera/Drawbridge",
+    "license": "MIT",
+    "authors": [{
+        "name": "Wes",
+        "homepage": "https://github.com/Netmosfera",
+        "role": "Smith"
+    }],
+    "require": {
+        "php": ">=7.1 <8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=6 <7"
+    }
+}

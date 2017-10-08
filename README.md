@@ -12,7 +12,7 @@ composer require netmosfera/drawbridge
 ## Design description:
 
 ### The traps:
-This library consists in two main group of functions; one is meant to create trap-objects,
+This library consists of two main group of functions; one is meant to create trap-objects,
 while the other is specific to `Closure`s.
 
 Creating trap-objects requires the creation of trap-classes first. These trap-classes have
@@ -21,8 +21,8 @@ emulate; they exist for the sole purpose of allowing to create trap-objects. It 
 idea to avoid referencing these trap-classes anywhere except when required by this
 library's own functionality.
  
-A trap-class implements the same interface of the emulated type. All interactions (get, set,
-call) performed on a trap-object are delegated to an handler (`TrapHandler`).
+A trap-class implements the same interface as the emulated type. All interactions (get, set,
+call) performed on a trap-object are delegated to a handler (`TrapHandler`).
 
 Trap-classes cannot be instantiated using `new`. This is by design, because for this
 library's original purpose it was necessary to have the trap's `__construct` matching the
